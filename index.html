@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To-Do List</title>
+</head>
+<body>
+    <h1 class="state">Your To-Do List</h1>
+    <div class="wrapper">
+        <form action="">
+            <input id="todo-Input" type="text" placeholder="type your task and hit enter" autocomplete="off">
+            <button id="add">add</button>
+        </form>
+        <select name="filter" id="filterTodo">
+            <option value="all" id="filter-option">All</option>
+            <option value="completed"  id="filter-option">Completed</option>
+            <option value="pending"  id="filter-option">Pending</option>
+        </select>
+        <ul id="task">
+            
+        </ul>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
